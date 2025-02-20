@@ -10,6 +10,11 @@ public class Calculadora{
     System.out.println("Suma: " + sumar(num1, num2));
     System.out.println("Resta: " + restar(num1, num2));
     System.out.println("Multiplicación: " + multiplicar(num1, num2));
+    if (num2 == 0) {
+        System.out.println("Error: División por 0");
+    } else {
+        System.out.println("División: " + dividir(num1, num2));
+    }
 
  }
 }
